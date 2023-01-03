@@ -226,8 +226,8 @@ color:#2568FB</string>
        <string>Upload</string>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>Icons/upload.svg</normaloff>Icons/upload.svg</iconset>
+       <iconset resource="resources.qrc">
+        <normaloff>:/Icons/upload.svg</normaloff>:/Icons/upload.svg</iconset>
       </property>
      </widget>
     </widget>
@@ -246,7 +246,7 @@ border:3px solid;
 border-color: #FECD45;
 </string>
      </property>
-     <widget class="QPushButton" name="Upload_3">
+     <widget class="QPushButton" name="Pointer">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -279,7 +279,7 @@ color:#2568FB</string>
        </size>
       </property>
      </widget>
-     <widget class="QPushButton" name="Upload_4">
+     <widget class="QPushButton" name="Hand">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -357,8 +357,8 @@ background-color:transparent;</string>
        <string/>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>Icons/zoom-out.svg</normaloff>Icons/zoom-out.svg</iconset>
+       <iconset resource="resources.qrc">
+        <normaloff>:/Icons/zoom-out.svg</normaloff>:/Icons/zoom-out.svg</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -392,8 +392,8 @@ background-color:transparent;</string>
        <string/>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>Icons/zoom-in.svg</normaloff>Icons/zoom-in.svg</iconset>
+       <iconset resource="resources.qrc">
+        <normaloff>:/Icons/zoom-in.svg</normaloff>:/Icons/zoom-in.svg</iconset>
       </property>
       <property name="iconSize">
        <size>

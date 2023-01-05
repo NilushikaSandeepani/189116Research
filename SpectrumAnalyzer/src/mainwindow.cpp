@@ -21,6 +21,13 @@ MainWindow::MainWindow(QWidget *parent)
     ui->customplot->setInteractions(QCP::iRangeDrag| QCP::iRangeZoom| QCP::iSelectAxes| QCP::iSelectPlottables);
 
 
+    QVector<double>x={1,2,3,4,5,6}, y={2,5,6,7,7,8};
+
+    ui->customplot->graph(0)->setData(x,y);
+    ui->customplot->rescaleAxes();
+    ui->customplot->replot();
+    ui->customplot->update();
+
 }
 
 MainWindow::~MainWindow()

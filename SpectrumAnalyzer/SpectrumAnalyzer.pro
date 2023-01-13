@@ -13,8 +13,8 @@ VPATH +=src/
 
 SOURCES += \
     main.cpp \
-    src/mainwindow.cpp \
-    src/qcustomplot.cpp
+    mainwindow.cpp \
+    qcustomplot.cpp
 
 HEADERS += \
     include/mainwindow.h \

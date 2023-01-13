@@ -4,5 +4,6 @@
         <file>Icons/upload.svg</file>
         <file>Icons/zoom-in.svg</file>
         <file>Icons/zoom-out.svg</file>
+        <file>Icons/menu.svg</file>
     </qresource>
 </RCC>

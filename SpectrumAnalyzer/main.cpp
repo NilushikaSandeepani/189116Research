@@ -1,21 +1,14 @@
 #include "mainwindow.h"
-#include "xlsxdocument.h"
-
-using namespace QXlsx;
-
 #include <QApplication>
 #include <QDebug>
+#include <QtGlobal>
+#include <QCoreApplication>
+#include <QtCore>
 
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-
-        QXlsx::Document xlsx;
-
-        xlsx.read("A1");
-
-
 
     MainWindow w;
 

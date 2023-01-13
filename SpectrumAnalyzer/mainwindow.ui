@@ -133,8 +133,8 @@ border-color: #FECD45;</string>
        <string/>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>Icons/menu.svg</normaloff>Icons/menu.svg</iconset>
+       <iconset resource="resources.qrc">
+        <normaloff>:/Icons/menu.svg</normaloff>:/Icons/menu.svg</iconset>
       </property>
       <property name="iconSize">
        <size>

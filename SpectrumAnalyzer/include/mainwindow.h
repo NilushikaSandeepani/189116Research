@@ -27,6 +27,8 @@ public:
 private slots:
     void on_Upload_clicked();
 
+    void on_MenuButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

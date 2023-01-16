@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>test1</class>
+ <widget class="QDialog" name="test1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>801</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="MenuButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:0px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/Icons/arrow-left-circle.svg</normaloff>:/Icons/arrow-left-circle.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MainmenuText">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>15</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Font-size:16px;
+color: rgb(37, 104, 251);
+</string>
+    </property>
+    <property name="text">
+     <string>Back To Menu</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ProjectName">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#ProjectName{
+	border:0px;
+}</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Poppins'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:12pt;&quot;&gt;Project Name&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Upload">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>10</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:2px solid;
+border-radius:15px;
+border-color: #2568FB;
+color:#2568FB</string>
+    </property>
+    <property name="text">
+     <string>Upload</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/Icons/upload.svg</normaloff>:/Icons/upload.svg</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="GraphSlot" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>781</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Move Here</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#GraphSlot{
+	 border-radius:10px; border:3px solid;border-color: #2568FB;
+}</string>
+   </property>
+   <widget class="QLabel" name="Spectrum">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>-1</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Font-size:14px;
+color: rgb(0, 0, 0);
+background-color: transparent;
+border-radius:10px;
+border:3px solid;
+border-color: #2568FB;</string>
+    </property>
+    <property name="text">
+     <string>Spectrum</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="customplot" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>761</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;</string>
+    </property>
+    <widget class="QPushButton" name="ZoomOut">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>260</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Verdana</family>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Move Here</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:0px;
+background-color:transparent;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/Icons/zoom-out.svg</normaloff>:/Icons/zoom-out.svg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>33</width>
+       <height>33</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ZoomIn">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>220</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Verdana</family>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Move Here</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:0px;
+background-color:transparent;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/Icons/zoom-in.svg</normaloff>:/Icons/zoom-in.svg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>33</width>
+       <height>33</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="Upload_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>440</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid;
+border-radius:15px;
+border-color: #2568FB;
+color:#2568FB</string>
+   </property>
+   <property name="text">
+    <string>Graph Info</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Upload_3">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>440</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid;
+border-radius:15px;
+border-color: #2568FB;
+color:#2568FB</string>
+   </property>
+   <property name="text">
+    <string>Concentration</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Upload_4">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>440</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid;
+border-radius:15px;
+border-color: #2568FB;
+color:#2568FB</string>
+   </property>
+   <property name="text">
+    <string>Lambda Max</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Upload_5">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>440</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid;
+border-radius:15px;
+border-color: #2568FB;
+color:#2568FB</string>
+   </property>
+   <property name="text">
+    <string>Sample Series Analyzer</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header location="global">qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

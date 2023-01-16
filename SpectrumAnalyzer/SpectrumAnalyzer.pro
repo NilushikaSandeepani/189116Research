@@ -12,16 +12,28 @@ INCLUDEPATH += include/
 VPATH +=src/
 
 SOURCES += \
+    home.cpp \
     main.cpp \
     mainwindow.cpp \
-    qcustomplot.cpp
+    processtype.cpp \
+    qcustomplot.cpp \
+    selecttype.cpp \
+    test1.cpp
 
 HEADERS += \
+    home.h \
     include/mainwindow.h \
-    include/qcustomplot.h
+    include/qcustomplot.h \
+    processtype.h \
+    selecttype.h \
+    test1.h
 
 FORMS += \
-    mainwindow.ui
+    home.ui \
+    mainwindow.ui \
+    processtype.ui \
+    selecttype.ui \
+    test1.ui
 
 
 # QXlsx code for Application Qt project

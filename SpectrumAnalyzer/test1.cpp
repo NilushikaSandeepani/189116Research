@@ -1,5 +1,5 @@
-#include "mainwindow.h"
-#include "ui_mainwindow.h"
+#include "test1.h"
+#include "ui_test1.h"
 #include "home.h"
 
 #include <iostream>
@@ -12,9 +12,10 @@
 #include <QMainWindow>
 #include <QVector>
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+
+test1::test1(QWidget *parent) :
+    QDialog(parent),
+    ui(new Ui::test1)
 {
     ui->setupUi(this);
 
@@ -27,7 +28,6 @@ MainWindow::MainWindow(QWidget *parent)
     ui->customplot->yAxis->setRange(0,5);
 
     ui->customplot->setInteractions(QCP::iRangeDrag| QCP::iRangeZoom| QCP::iSelectAxes| QCP::iSelectPlottables);
-
 
     QVector<double> x, y;
 
@@ -64,50 +64,9 @@ MainWindow::MainWindow(QWidget *parent)
     }
 
 
-
-
-
-    //Find the lamda max in data set
-
-//    QMainWindow w;
-
-        double highest = *std::max_element(y.begin(), y.end());
-          std::cout << "Lambda Max: " << highest << std::endl;
-
-//        QLabel *label = new QLabel(QString("The highest value in the data set is: %1").arg(highest));
-//            w.setCentralWidget(label);
-//            w.show();
-
-
-
-
-
-    ui->customplot->graph(0)->setData(x,y);
-    ui->customplot->rescaleAxes();
-    ui->customplot->replot();
-    ui->customplot->update();
-
-
-
 }
 
-MainWindow::~MainWindow()
+test1::~test1()
 {
     delete ui;
 }
-
-
-void MainWindow::on_Upload_clicked()
-{
-
-}
-
-
-void MainWindow::on_MenuButton_clicked()
-{
-    hide();
-    home h;
-    h.setModal(true);
-    h.exec();
-}
-

@@ -319,7 +319,7 @@ border-color: #2568FB;
 color:#2568FB</string>
    </property>
    <property name="text">
-    <string>Concentration</string>
+    <string>Point Info</string>
    </property>
   </widget>
   <widget class="QPushButton" name="Upload_4">
@@ -344,7 +344,7 @@ border-color: #2568FB;
 color:#2568FB</string>
    </property>
    <property name="text">
-    <string>Lambda Max</string>
+    <string>Concentration</string>
    </property>
   </widget>
   <widget class="QPushButton" name="Upload_5">

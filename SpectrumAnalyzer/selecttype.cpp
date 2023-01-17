@@ -35,18 +35,18 @@ void selecttype::on_pushButton_3_clicked()
 void selecttype::on_liquid_clicked()
 {
     hide();
-    test1 p;
-    p.setModal(true);
-    p.exec();
+    test1 t;
+    t.setModal(true);
+    t.exec();
 }
 
 
 void selecttype::on_Back_clicked()
 {
     hide();
-    home p;
-    p.setModal(true);
-    p.exec();
+    home m;
+    m.setModal(true);
+    m.exec();
 
 }
 

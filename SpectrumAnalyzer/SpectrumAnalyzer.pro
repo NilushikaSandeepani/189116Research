@@ -12,6 +12,8 @@ INCLUDEPATH += include/
 VPATH +=src/
 
 SOURCES += \
+    concentration.cpp \
+    error1.cpp \
     home.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -21,6 +23,8 @@ SOURCES += \
     test1.cpp
 
 HEADERS += \
+    concentration.h \
+    error1.h \
     home.h \
     include/mainwindow.h \
     include/qcustomplot.h \
@@ -29,6 +33,8 @@ HEADERS += \
     test1.h
 
 FORMS += \
+    concentration.ui \
+    error1.ui \
     home.ui \
     mainwindow.ui \
     processtype.ui \

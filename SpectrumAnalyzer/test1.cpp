@@ -1,6 +1,7 @@
 #include "test1.h"
 #include "ui_test1.h"
 #include "home.h"
+#include "qcustomplot.h"
 
 #include <iostream>
 #include <qtextstream.h>
@@ -11,6 +12,9 @@
 #include <QApplication>
 #include <QMainWindow>
 #include <QVector>
+#include <QtWidgets>
+#include <qdebug.h>
+#include <QMouseEvent>
 
 
 test1::test1(QWidget *parent) :
@@ -29,7 +33,7 @@ test1::test1(QWidget *parent) :
 
     ui->customplot->setInteractions(QCP::iRangeDrag| QCP::iRangeZoom| QCP::iSelectAxes| QCP::iSelectPlottables);
 
-    QVector<double> x, y;
+    QVector<double> x, y, xVal, yVal;
 
     x.clear();
     y.clear();
@@ -62,6 +66,31 @@ test1::test1(QWidget *parent) :
 
         qDebug() << "Error Loading File";
     }
+
+
+    // Connect the mousePress signal to the custom slot
+    connect(ui->customplot, &QCustomPlot::mousePress, this, &test1::mousePressEvent);
+
+    void test1::mousePressEvent(QMouseEvent* event)
+
+        // Check if the event was a left button press
+        if (event->button() == Qt::LeftButton)
+        {
+            // Get the coordinates of the point that was clicked
+            double x = customPlot->xAxis->pixelToCoord(event->localPos().x());
+            double y = customPlot->yAxis->pixelToCoord(event->localPos().y());
+
+            // Check if the point is within the axis ranges
+            if (customplot->xAxis->range().contains(x) && customPlot->yAxis->range().contains(y))
+            {
+                // Save the point coordinates to the class variables
+                xVal = x;
+                yVal = y;
+                qDebug() << "X: " << xVal << " Y: " << yVal;
+            }
+        }
+
+ //Input Pathlength
 
 
 }

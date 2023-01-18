@@ -28,7 +28,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Invalid input, It is not an integer</string>
+    <string>Oops! Invalid Input. Try Again.</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>

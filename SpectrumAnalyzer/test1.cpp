@@ -2,6 +2,7 @@
 #include "ui_test1.h"
 #include "home.h"
 #include "qcustomplot.h"
+#include"graphinfo.h"
 
 #include <iostream>
 #include <qtextstream.h>
@@ -90,7 +91,6 @@ test1::test1(QWidget *parent) :
             }
         }
 
- //Input Pathlength
 
 
 }
@@ -99,3 +99,24 @@ test1::~test1()
 {
     delete ui;
 }
+
+//back to home
+void test1::on_Back_clicked()
+{
+    hide();
+    home h;
+    h.setModal(true);
+    h.exec();
+}
+
+
+
+
+
+void test1::on_GraphInfo_clicked()
+{
+    GraphInfo g;
+    g.setModal(true);
+    g.exec();
+}
+

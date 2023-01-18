@@ -25,6 +25,13 @@ public:
     explicit test1(QWidget *parent = nullptr);
     ~test1();
 
+private slots:
+    void on_Back_clicked();
+
+    void on_Upload_3_clicked();
+
+    void on_GraphInfo_clicked();
+
 private:
     Ui::test1 *ui;
 };

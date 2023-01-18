@@ -22,16 +22,7 @@ void selecttype::on_pushButton_2_clicked()
 
 }
 
-//back
-void selecttype::on_pushButton_3_clicked()
-{
-    hide();
-    processtype p;
-    p.setModal(true);
-    p.exec();
-}
-
-
+//Diret into test1
 void selecttype::on_liquid_clicked()
 {
     hide();
@@ -40,7 +31,7 @@ void selecttype::on_liquid_clicked()
     t.exec();
 }
 
-
+//back to home
 void selecttype::on_Back_clicked()
 {
     hide();

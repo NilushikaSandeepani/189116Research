@@ -14,7 +14,8 @@ home::~home()
     delete ui;
 }
 //move to select type ui
-void home::on_pushButton_clicked()
+
+void home::on_Absorbance_clicked()
 {
     hide();
     selecttype p;

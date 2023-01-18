@@ -12,7 +12,7 @@ Error1::~Error1()
 {
     delete ui;
 }
-
+//back to test1
 void Error1::on_pushButton_clicked()
 {
     hide();

@@ -14,10 +14,10 @@ VPATH +=src/
 SOURCES += \
     concentration.cpp \
     error1.cpp \
+    graphinfo.cpp \
     home.cpp \
     main.cpp \
     mainwindow.cpp \
-    processtype.cpp \
     qcustomplot.cpp \
     selecttype.cpp \
     test1.cpp
@@ -25,19 +25,19 @@ SOURCES += \
 HEADERS += \
     concentration.h \
     error1.h \
+    graphinfo.h \
     home.h \
     include/mainwindow.h \
     include/qcustomplot.h \
-    processtype.h \
     selecttype.h \
     test1.h
 
 FORMS += \
     concentration.ui \
     error1.ui \
+    graphinfo.ui \
     home.ui \
     mainwindow.ui \
-    processtype.ui \
     selecttype.ui \
     test1.ui
 

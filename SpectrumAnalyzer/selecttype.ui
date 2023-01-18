@@ -98,7 +98,7 @@ color: rgb(37, 104, 251);</string>
   <widget class="QWidget" name="widget" native="true">
    <property name="geometry">
     <rect>
-     <x>70</x>
+     <x>90</x>
      <y>180</y>
      <width>601</width>
      <height>161</height>
@@ -127,7 +127,7 @@ background-color: rgb(255, 255, 255);</string>
      <string notr="true">border-color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>Select the Nature Of The sample You Are Testing</string>
+     <string>Select the Type Of The sample You Are Testing</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>

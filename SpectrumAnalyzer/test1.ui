@@ -25,60 +25,6 @@
    <property name="styleSheet">
     <string notr="true"/>
    </property>
-   <widget class="QPushButton" name="MenuButton">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>10</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border:0px;
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset resource="resources.qrc">
-      <normaloff>:/Icons/arrow-left-circle.svg</normaloff>:/Icons/arrow-left-circle.svg</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>25</width>
-      <height>25</height>
-     </size>
-    </property>
-   </widget>
-   <widget class="QLabel" name="MainmenuText">
-    <property name="geometry">
-     <rect>
-      <x>55</x>
-      <y>15</y>
-      <width>111</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Poppins</family>
-      <pointsize>-1</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">Font-size:16px;
-color: rgb(37, 104, 251);
-</string>
-    </property>
-    <property name="text">
-     <string>Back To Menu</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
    <widget class="QTextEdit" name="ProjectName">
     <property name="geometry">
      <rect>
@@ -113,9 +59,9 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <widget class="QPushButton" name="Upload">
     <property name="geometry">
      <rect>
-      <x>670</x>
+      <x>630</x>
       <y>10</y>
-      <width>91</width>
+      <width>141</width>
       <height>31</height>
      </rect>
     </property>
@@ -132,11 +78,45 @@ border-color: #2568FB;
 color:#2568FB</string>
     </property>
     <property name="text">
-     <string>Upload</string>
+     <string>Upload Dataset</string>
     </property>
     <property name="icon">
      <iconset resource="resources.qrc">
       <normaloff>:/Icons/upload.svg</normaloff>:/Icons/upload.svg</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Back">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:0px solid;
+border-radius:25px;
+border-color: #2568FB;
+color: rgb(37, 104, 251);</string>
+    </property>
+    <property name="text">
+     <string>Back To Menu</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/Icons/arrow-left-circle.svg</normaloff>:/Icons/arrow-left-circle.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
     </property>
    </widget>
   </widget>
@@ -272,7 +252,7 @@ background-color:transparent;</string>
     </widget>
    </widget>
   </widget>
-  <widget class="QPushButton" name="Upload_2">
+  <widget class="QPushButton" name="GraphInfo">
    <property name="geometry">
     <rect>
      <x>30</x>
@@ -297,7 +277,7 @@ color:#2568FB</string>
     <string>Graph Info</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="Upload_3">
+  <widget class="QPushButton" name="PointInfo">
    <property name="geometry">
     <rect>
      <x>160</x>
@@ -320,31 +300,6 @@ color:#2568FB</string>
    </property>
    <property name="text">
     <string>Point Info</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="Upload_4">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>440</y>
-     <width>101</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Poppins</family>
-     <pointsize>8</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border:2px solid;
-border-radius:15px;
-border-color: #2568FB;
-color:#2568FB</string>
-   </property>
-   <property name="text">
-    <string>Concentration</string>
    </property>
   </widget>
   <widget class="QPushButton" name="Upload_5">

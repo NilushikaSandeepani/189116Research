@@ -15,7 +15,8 @@ Concentration::~Concentration()
     delete ui;
 }
 
-void Concentration::on_lineEdit_cursorPositionChanged(int arg1, int arg2)
+//Input data to pathlength
+void Concentration::on_Pathlength_cursorPositionChanged(int arg1, int arg2)
 {
     QString text = lineEdit->text();
       bool ok;
@@ -23,9 +24,9 @@ void Concentration::on_lineEdit_cursorPositionChanged(int arg1, int arg2)
 
       // Check if the input is a valid integer
       if (ok) {
-          qDebug() << "The integer value entered is: " << value;
+          qDebug() << value;
       } else {
-          error1 e;
+          Error1 e;
           e.setModal(true);
           e.exec();
       }

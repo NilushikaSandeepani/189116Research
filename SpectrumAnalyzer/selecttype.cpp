@@ -1,7 +1,6 @@
 #include "selecttype.h"
 #include "ui_selecttype.h"
-#include "processtype.h"
-#include "test1.h"
+#include "Mainpage.h"
 #include "home.h"
 
 

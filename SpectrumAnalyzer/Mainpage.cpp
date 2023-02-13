@@ -1,5 +1,5 @@
-#include "test1.h"
-#include "ui_test1.h"
+#include "Mainpage.h"
+#include "ui_Mainpage.h"
 #include "home.h"
 #include "qcustomplot.h"
 #include"graphinfo.h"
@@ -69,27 +69,27 @@ test1::test1(QWidget *parent) :
     }
 
 
-    // Connect the mousePress signal to the custom slot
-    connect(ui->customplot, &QCustomPlot::mousePress, this, &test1::mousePressEvent);
+//    // Connect the mousePress signal to the custom slot
+//    connect(ui->customplot, &QCustomPlot::mousePress, this, &test1::mousePressEvent);
 
-    void test1::mousePressEvent(QMouseEvent* event)
+//    void test1::mousePressEvent(QMouseEvent* event)
 
-        // Check if the event was a left button press
-        if (event->button() == Qt::LeftButton)
-        {
-            // Get the coordinates of the point that was clicked
-            double x = customPlot->xAxis->pixelToCoord(event->localPos().x());
-            double y = customPlot->yAxis->pixelToCoord(event->localPos().y());
+//        // Check if the event was a left button press
+//        if (event->button() == Qt::LeftButton)
+//        {
+//            // Get the coordinates of the point that was clicked
+//            double x = customPlot->xAxis->pixelToCoord(event->localPos().x());
+//            double y = customPlot->yAxis->pixelToCoord(event->localPos().y());
 
-            // Check if the point is within the axis ranges
-            if (customplot->xAxis->range().contains(x) && customPlot->yAxis->range().contains(y))
-            {
-                // Save the point coordinates to the class variables
-                xVal = x;
-                yVal = y;
-                qDebug() << "X: " << xVal << " Y: " << yVal;
-            }
-        }
+//            // Check if the point is within the axis ranges
+//            if (customplot->xAxis->range().contains(x) && customPlot->yAxis->range().contains(y))
+//            {
+//                // Save the point coordinates to the class variables
+//                xVal = x;
+//                yVal = y;
+//                qDebug() << "X: " << xVal << " Y: " << yVal;
+//            }
+//        }
 
 
 

@@ -4,7 +4,7 @@
 #include <QtGlobal>
 #include <QCoreApplication>
 #include <QtCore>
-#include "test1.h"
+#include "Mainpage.h"
 #include "home.h"
 
 

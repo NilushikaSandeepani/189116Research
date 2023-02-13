@@ -12,6 +12,7 @@ INCLUDEPATH += include/
 VPATH +=src/
 
 SOURCES += \
+    Mainpage.cpp \
     concentration.cpp \
     error1.cpp \
     graphinfo.cpp \
@@ -19,27 +20,26 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     qcustomplot.cpp \
-    selecttype.cpp \
-    test1.cpp
+    selecttype.cpp
 
 HEADERS += \
+    Mainpage.h \
     concentration.h \
     error1.h \
     graphinfo.h \
     home.h \
     include/mainwindow.h \
     include/qcustomplot.h \
-    selecttype.h \
-    test1.h
+    selecttype.h
 
 FORMS += \
+    Mainpage.ui \
     concentration.ui \
     error1.ui \
     graphinfo.ui \
     home.ui \
     mainwindow.ui \
-    selecttype.ui \
-    test1.ui
+    selecttype.ui
 
 
 # QXlsx code for Application Qt project

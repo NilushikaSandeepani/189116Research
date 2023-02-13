@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>test1</class>
- <widget class="QDialog" name="test1">
+ <class>Mainpage</class>
+ <widget class="QDialog" name="Mainpage">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>500</height>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -59,7 +59,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <widget class="QPushButton" name="Upload">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>640</x>
       <y>10</y>
       <width>141</width>
       <height>31</height>
@@ -88,7 +88,7 @@ color:#2568FB</string>
    <widget class="QPushButton" name="Back">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>0</x>
       <y>10</y>
       <width>161</width>
       <height>31</height>
@@ -252,80 +252,148 @@ background-color:transparent;</string>
     </widget>
    </widget>
   </widget>
-  <widget class="QPushButton" name="GraphInfo">
+  <widget class="QWidget" name="Inputsec" native="true">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>440</y>
-     <width>101</width>
-     <height>31</height>
+     <x>10</x>
+     <y>430</y>
+     <width>781</width>
+     <height>151</height>
     </rect>
    </property>
-   <property name="font">
-    <font>
-     <family>Poppins</family>
-     <pointsize>8</pointsize>
-    </font>
-   </property>
    <property name="styleSheet">
-    <string notr="true">border:2px solid;
+    <string notr="true">#Inputsec {border-radius:10px; border:3px solid;border-color: #2568FB;}</string>
+   </property>
+   <widget class="QPushButton" name="Upload_5">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>100</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:2px solid;
 border-radius:15px;
 border-color: #2568FB;
 color:#2568FB</string>
-   </property>
-   <property name="text">
-    <string>Graph Info</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="PointInfo">
-   <property name="geometry">
-    <rect>
-     <x>160</x>
-     <y>440</y>
-     <width>101</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Poppins</family>
-     <pointsize>8</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border:2px solid;
+    </property>
+    <property name="text">
+     <string>Sample Series Analyzer</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GraphInfo">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>60</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:2px solid;
 border-radius:15px;
 border-color: #2568FB;
 color:#2568FB</string>
-   </property>
-   <property name="text">
-    <string>Point Info</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="Upload_5">
-   <property name="geometry">
-    <rect>
-     <x>610</x>
-     <y>440</y>
-     <width>161</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Poppins</family>
-     <pointsize>8</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border:2px solid;
+    </property>
+    <property name="text">
+     <string>Graph Info</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GraphInfo_2">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>20</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:2px solid;
 border-radius:15px;
 border-color: #2568FB;
 color:#2568FB</string>
-   </property>
-   <property name="text">
-    <string>Sample Series Analyzer</string>
-   </property>
+    </property>
+    <property name="text">
+     <string>Save Data</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Path Length</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Pathlength">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>40</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Solvent</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>80</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
  </widget>
  <customwidgets>

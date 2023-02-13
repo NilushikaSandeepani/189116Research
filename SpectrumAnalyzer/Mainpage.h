@@ -1,5 +1,5 @@
-#ifndef TEST1_H
-#define TEST1_H
+#ifndef MAINPAGE_H
+#define MAINPAGE_H
 
 #include "xlsxdocument.h"
 #include "xlsxchartsheet.h"
@@ -36,4 +36,4 @@ private:
     Ui::test1 *ui;
 };
 
-#endif // TEST1_H
+#endif // MAINPAGE_H

@@ -13,23 +13,6 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>10</y>
-     <width>781</width>
-     <height>481</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(0, 0, 0);
-</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
   <widget class="QLabel" name="ToolName">
    <property name="geometry">
     <rect>
@@ -46,7 +29,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);</string>
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>Spectrum Analyzer</string>
@@ -70,7 +53,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);</string>
+    <string notr="true"/>
    </property>
    <property name="text">
     <string> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore.</string>
@@ -195,30 +178,6 @@ color:#2568FB</string>
     </property>
    </widget>
   </widget>
-  <widget class="QLabel" name="Description_2">
-   <property name="geometry">
-    <rect>
-     <x>240</x>
-     <y>150</y>
-     <width>341</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
   <widget class="QLabel" name="AboutTool">
    <property name="geometry">
     <rect>
@@ -234,7 +193,7 @@ color:#2568FB</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);</string>
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>About Tool</string>
@@ -243,11 +202,9 @@ color:#2568FB</string>
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <zorder>label</zorder>
   <zorder>widget</zorder>
   <zorder>ToolName</zorder>
   <zorder>Description</zorder>
-  <zorder>Description_2</zorder>
   <zorder>AboutTool</zorder>
  </widget>
  <resources/>

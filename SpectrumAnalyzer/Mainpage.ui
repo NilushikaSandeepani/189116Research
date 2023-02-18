@@ -264,7 +264,7 @@ background-color:transparent;</string>
    <property name="styleSheet">
     <string notr="true">#Inputsec {border-radius:10px; border:3px solid;border-color: #2568FB;}</string>
    </property>
-   <widget class="QPushButton" name="Upload_5">
+   <widget class="QPushButton" name="Sampleseries">
     <property name="geometry">
      <rect>
       <x>600</x>
@@ -314,7 +314,7 @@ color:#2568FB</string>
      <string>Graph Info</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="GraphInfo_2">
+   <widget class="QPushButton" name="Savedata">
     <property name="geometry">
      <rect>
       <x>600</x>
@@ -339,10 +339,10 @@ color:#2568FB</string>
      <string>Save Data</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="PLengthname">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>20</x>
       <y>40</y>
       <width>131</width>
       <height>16</height>
@@ -355,23 +355,10 @@ color:#2568FB</string>
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Pathlength">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>40</y>
-      <width>231</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-color: rgb(255, 255, 255);</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>20</x>
       <y>80</y>
       <width>131</width>
       <height>16</height>
@@ -384,11 +371,21 @@ color:#2568FB</string>
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="Sloventselect">
     <property name="geometry">
      <rect>
       <x>150</x>
       <y>80</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="PLengthselect">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>40</y>
       <width>231</width>
       <height>22</height>
      </rect>

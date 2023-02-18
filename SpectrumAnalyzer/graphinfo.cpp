@@ -12,3 +12,9 @@ GraphInfo::~GraphInfo()
 {
     delete ui;
 }
+
+void GraphInfo::on_lineEdit_cursorPositionChanged(int arg1, int arg2)
+{
+
+}
+

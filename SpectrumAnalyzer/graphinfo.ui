@@ -145,6 +145,12 @@ color: rgb(37, 104, 251);</string>
       <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <bold>false</bold>
+      <kerning>false</kerning>
+     </font>
+    </property>
     <property name="text">
      <string>Wavelength</string>
     </property>
@@ -157,6 +163,12 @@ color: rgb(37, 104, 251);</string>
       <width>161</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>false</bold>
+      <kerning>false</kerning>
+     </font>
     </property>
     <property name="text">
      <string>Functional Group</string>
@@ -221,6 +233,12 @@ border-color: #2568FB;}</string>
       <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <bold>false</bold>
+      <kerning>false</kerning>
+     </font>
+    </property>
     <property name="text">
      <string>Absorbance</string>
     </property>
@@ -244,6 +262,12 @@ border-color: #2568FB;}</string>
       <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <bold>false</bold>
+      <kerning>false</kerning>
+     </font>
+    </property>
     <property name="text">
      <string>Concentration</string>
     </property>
@@ -256,6 +280,12 @@ border-color: #2568FB;}</string>
       <width>121</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>false</bold>
+      <kerning>false</kerning>
+     </font>
     </property>
     <property name="text">
      <string>Molar Absorptivity</string>

@@ -53,9 +53,9 @@ color: rgb(37, 104, 251);</string>
   <widget class="QWidget" name="widget" native="true">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>20</x>
      <y>70</y>
-     <width>751</width>
+     <width>761</width>
      <height>91</height>
     </rect>
    </property>
@@ -112,9 +112,9 @@ color: rgb(37, 104, 251);</string>
   <widget class="QWidget" name="Lambda" native="true">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>20</x>
      <y>180</y>
-     <width>751</width>
+     <width>761</width>
      <height>271</height>
     </rect>
    </property>
@@ -171,7 +171,7 @@ color: rgb(37, 104, 251);</string>
      </font>
     </property>
     <property name="text">
-     <string>Functional Group</string>
+     <string>Functional Groups</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_2">
@@ -180,7 +180,7 @@ color: rgb(37, 104, 251);</string>
       <x>430</x>
       <y>80</y>
       <width>281</width>
-      <height>31</height>
+      <height>81</height>
      </rect>
     </property>
    </widget>
@@ -276,7 +276,7 @@ border-color: #2568FB;}</string>
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>120</y>
+      <y>180</y>
       <width>121</width>
       <height>21</height>
      </rect>
@@ -295,7 +295,7 @@ border-color: #2568FB;}</string>
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>140</y>
+      <y>200</y>
       <width>281</width>
       <height>22</height>
      </rect>

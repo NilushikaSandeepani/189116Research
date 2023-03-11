@@ -391,6 +391,31 @@ color:#2568FB</string>
      </rect>
     </property>
    </widget>
+   <widget class="QPushButton" name="clearall">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>20</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:2px solid;
+border-radius:15px;
+border-color: #2568FB;
+color:#2568FB</string>
+    </property>
+    <property name="text">
+     <string>Clear All</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <customwidgets>

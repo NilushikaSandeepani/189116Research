@@ -47,30 +47,6 @@ color: rgb(37, 104, 251);</string>
     </size>
    </property>
   </widget>
-  <widget class="QLabel" name="Description">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>60</y>
-     <width>651</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: #000000</string>
-   </property>
-   <property name="text">
-    <string> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magnaaliqua.</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
   <widget class="QWidget" name="widget" native="true">
    <property name="geometry">
     <rect>
@@ -180,7 +156,6 @@ selection-color: rgb(37, 104, 251);
   <zorder>label</zorder>
   <zorder>widget</zorder>
   <zorder>Back</zorder>
-  <zorder>Description</zorder>
  </widget>
  <resources>
   <include location="resources.qrc"/>

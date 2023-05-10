@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>465</height>
+    <height>655</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -115,7 +115,7 @@ color: rgb(37, 104, 251);</string>
      <x>20</x>
      <y>180</y>
      <width>761</width>
-     <height>271</height>
+     <height>321</height>
     </rect>
    </property>
    <property name="font">
@@ -296,9 +296,38 @@ border-color: #2568FB;}</string>
      <rect>
       <x>430</x>
       <y>200</y>
-      <width>281</width>
+      <width>221</width>
       <height>22</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_11">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>260</y>
+      <width>221</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>240</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>false</bold>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>Solvent Cutoff</string>
     </property>
    </widget>
   </widget>

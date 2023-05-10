@@ -178,7 +178,7 @@ color:#2568FB</string>
     </property>
    </widget>
   </widget>
-  <widget class="QLabel" name="AboutTool">
+  <widget class="QLabel" name="AboutUs">
    <property name="geometry">
     <rect>
      <x>660</x>
@@ -196,7 +196,7 @@ color:#2568FB</string>
     <string notr="true"/>
    </property>
    <property name="text">
-    <string>About Tool</string>
+    <string>About Us</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -205,7 +205,7 @@ color:#2568FB</string>
   <zorder>widget</zorder>
   <zorder>ToolName</zorder>
   <zorder>Description</zorder>
-  <zorder>AboutTool</zorder>
+  <zorder>AboutUs</zorder>
  </widget>
  <resources/>
  <connections/>

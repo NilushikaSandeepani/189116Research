@@ -17,7 +17,7 @@ Concentration::~Concentration()
 
 //Input data to pathlength
 void Concentration::on_Pathlength_cursorPositionChanged(int arg1, int arg2)
-{
+{/*
     QString text = ui->lineEdit_2->text();
       bool ok;
       int value = text.toInt(&ok);
@@ -29,6 +29,6 @@ void Concentration::on_Pathlength_cursorPositionChanged(int arg1, int arg2)
           Error1 e;
           e.setModal(true);
           e.exec();
-      }
+      }*/
 }
 
